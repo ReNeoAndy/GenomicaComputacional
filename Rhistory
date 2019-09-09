@@ -1,0 +1,63 @@
+library(Biostrings)
+dna1 <- DNAString("ACGT-N")
+dna1
+DNAStringSet("ADE")
+dna2 <- DNAStringSet(c("ACGT", "GTCA", "GCTA"))
+dna2
+IUPAC_CODE_MAP
+dna42 <- readDNAStringSet("~/Documents/Genomica/sequences/Arabidopsis_thaliana_aa.fasta")
+dna42 <- readDNAStringSet("/Documents/Genomica/sequences/Arabidopsis_thaliana_aa.fasta")
+readBStringSet(/Documents/Genomica/sequences/Arabidopsis_thaliana_aa.fasta, format="fasta", nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
+readBStringSet(Documents/Genomica/sequences/Arabidopsis_thaliana_aa.fasta, format="fasta", nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
+readBStringSet("Documents/Genomica/sequences/Arabidopsis_thaliana_aa.fasta", format="fasta", nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
+x = readBStringSet("Documents/Genomica/sequences/Arabidopsis_thaliana_aa.fasta", format="fasta", nrec=-1L, skip=0L, seek.first.rec=FALSE, use.names=TRUE)
+length(x)
+lapply(x, length)
+y = lapply(x, length)
+str(y
+)
+unlist(y)
+z = unlist(y)
+str(z)
+sapply()
+sapply(x)
+sapply(x)
+sapply(x, length)
+j = sapply(x, length)
+prom = function(x){sum(x)/length(x)}
+prom
+prom1 <- function(x){sum(x)/length(x)}
+prom1
+js = lapply(x, sum(x)/length(x))
+js = lapply(x, sum(x) / length(x))
+js = lapply(x, sum / length)
+js = lapply(x, sum)
+mean(x)
+mean(y)
+mean(z)
+sd(z)
+table(z)
+promedi = mean(z)
+desviacion = sd(z)
+grafica = as.numeric(promedi)
+grafica
+str(grafica)
+grafica2 = as.numeric(desviacion)
+grafica2
+str(grafica2)
+as.vector
+str(z)
+str(promedi)
+plot(grafica, grafica2)
+plot(grafica, z)
+plot(grafica, length(z))
+plot(grafica, lapply(z))
+plot(grafica, lapply(z, length))
+plot(grafica, j)
+str(j)
+lapply(j, as.vector)
+xd = lapply(j, as.vector)
+plot(xd, z)
+str(z)
+plot(xd, z)
+q()
